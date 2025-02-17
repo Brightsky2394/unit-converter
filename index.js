@@ -6,7 +6,7 @@ const convertBtn = document.getElementById("convert-btn")
 
 convertBtn.addEventListener('click', function() {
     lenMessageEl.textContent = `${numEl.value} metre = ${metreToFeet(numEl.value)} feet | ${numEl.value} feet = ${feetToMetre(numEl.value)} metre`
-    volumeMessageEl.textContent = `${numEl.value} litre = ${litreToGallon(numEl.value)} gallon | {numEl.value} gallon = ${gallonsToLitres(numEl.value)} litre`
+    volumeMessageEl.textContent = `${numEl.value} litre = ${litreToGallon(numEl.value)} gallon | ${numEl.value} gallon = ${gallonsToLitres(numEl.value)} litre`
     massMessageEl.textContent = `${numEl.value} kilogram = ${kilogramToPound(numEl.value)} pound | ${numEl.value} pound = ${poundToKilogram(numEl.value)} kilogram`
 })
 
